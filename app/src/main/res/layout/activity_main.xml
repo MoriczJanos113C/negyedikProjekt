@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fractals_5940199_960_720">
+
+    <TextView
+        android:id="@+id/cim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Kérem kattintson az egyikre"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        />
+
+    <ImageView
+        android:layout_below="@id/cim"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/_00px_casio_fx_85wa_20050529"
+        android:id="@+id/szamologepkep"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/szamologepre"
+        android:layout_below="@id/szamologepkep"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Számológép"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:id="@+id/keruletteruletkep"
+        android:layout_below="@id/szamologepre"
+        android:src="@drawable/maxresdefault"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/teruletkeruletszamitasra"
+        android:text="Terület/KerületSzámítás"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/keruletteruletkep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+
+
+</RelativeLayout>

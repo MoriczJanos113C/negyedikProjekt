@@ -10,8 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class KeruletTerulet extends AppCompatActivity {
 
-    // 2*a + 2*b
-    // a*b
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +30,7 @@ public class KeruletTerulet extends AppCompatActivity {
 
                 int a = Integer.parseInt(aoldal.getText().toString());
                 int b = Integer.parseInt(boldal.getText().toString());
-                i.putExtra("eredmeny", 2*(a+b));
+                i.putExtra("eredmeny", String.valueOf(2*(a+b)));
 
                 startActivity(i);
             }
@@ -44,7 +43,7 @@ public class KeruletTerulet extends AppCompatActivity {
 
                 int a = Integer.parseInt(aoldal.getText().toString());
                 int b = Integer.parseInt(boldal.getText().toString());
-                i.putExtra("eredmeny", a*b);
+                i.putExtra("eredmeny", String.valueOf(a*b));
 
                 startActivity(i);
             }

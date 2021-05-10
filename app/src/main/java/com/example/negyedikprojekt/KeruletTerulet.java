@@ -15,7 +15,7 @@ public class KeruletTerulet extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.kerureltterulet);
+        setContentView(R.layout.activity_kerulet_terulet);
 
         EditText aoldal = findViewById(R.id.aoldal);
         EditText boldal = findViewById(R.id.boldal);
